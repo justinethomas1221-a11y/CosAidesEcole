@@ -28,6 +28,16 @@ section{
     padding-right: 16%;
 }
 
+/* possitionement sur GSM */
+img {
+  max-width: 100%;
+  height: auto;
+}
+.table-GSM {
+  overflow-x: auto;
+}
+
+
 
 /** tableau **/
 
@@ -194,5 +204,6 @@ footer a{
 footer h3{
     padding: 1px;
 }
+
 
 
