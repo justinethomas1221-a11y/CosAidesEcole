@@ -18,7 +18,10 @@ body {
     background-repeat: repeat;
     color: 	#8B008B;
     margin: 1px;
-  }
+   
+}
+
+  
 
 
 
@@ -27,7 +30,6 @@ section{
     padding-left: 16%;
     padding-right: 16%;
 }
-
 /* possitionement sur GSM */
 img {
   max-width: 100%;
@@ -38,6 +40,8 @@ img {
   display: block;
   width: 100%;
 }
+
+
 
 
 /** tableau **/
@@ -101,7 +105,6 @@ p {
 
 .info {
   font-size: 30px;
-}
 }
 .cop {
   font-size: 15px;
@@ -189,6 +192,10 @@ li a:hover{
     color:	#8B008B;
     text-decoration: none;
 }
+header {
+  padding-top: 90px;
+}
+
 
 /* FOOTER */
 
@@ -205,7 +212,3 @@ footer a{
 footer h3{
     padding: 1px;
 }
-
-
-
-
