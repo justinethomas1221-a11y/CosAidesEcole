@@ -91,6 +91,10 @@ p {
 .info {
   font-size: 30px;
 }
+}
+.cop {
+  font-size: 10px;
+}
 /** FIN taille texte **/
 
 /** texte souligner **/
@@ -190,3 +194,4 @@ footer a{
 footer h3{
     padding: 1px;
 }
+
