@@ -1,0 +1,192 @@
+/* scroll + marque page  */
+html {
+  scroll-behavior: smooth;
+}
+
+.info, .autres {  
+  scroll-margin-top: 120px; 
+}
+
+
+/* FIN scroll + marque page  */
+
+
+/* Base */
+
+body {
+    background-image: url(../images/fond-du-site.webp);
+    background-repeat: repeat;
+    color: 	#8B008B;
+    margin: 1px;
+  }
+
+
+
+section{
+    text-align: center;
+    padding-left: 16%;
+    padding-right: 16%;
+}
+
+
+/** tableau **/
+
+table {
+  font-family: Didot, serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+tr {
+  background-color: #ffffff;
+}
+
+.tableau {
+  margin-left: auto;
+  margin-right: auto;
+}
+/** FIN tableau **/
+h1, h2, h3, .info, .titre, .autres { font-family: Didot, serif; }
+
+
+p {
+    font-family:  Trebuchet MS, sans-serif ;
+  }
+/** couleur textes **/
+h1{
+
+    color: #8B008B;
+    padding: 20px;
+}
+
+/** Fin couleur textes **/
+
+
+/** emplacement texte **/
+h1, h2, h3, p, .info, .autres, .pied{
+  text-align: center;
+}
+
+/** FIN emplacement texte **/
+
+/** taille texte **/
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 38px;
+}
+
+p {
+  font-size: 18px ;
+}
+
+.info {
+  font-size: 30px;
+}
+/** FIN taille texte **/
+
+/** texte souligner **/
+h1{
+  text-decoration: underline;   
+    text-decoration-style: double;
+  text-underline-position: under;
+}
+
+h2{
+  text-decoration: underline;
+  text-underline-position: auto ;
+}
+
+
+.info {
+text-emphasis: '*';
+text-emphasis-position: under;
+}
+
+
+
+
+/** Images **/
+.small-image{
+    width: 50%;
+}
+
+.big-image{
+    width: 100%;
+}
+
+input, textarea, button{
+    width: 50%;
+    margin-bottom: 16px;
+}
+
+section{
+    text-align: center;
+    padding-left: 16%;
+    padding-right: 16%;
+}
+
+/* NAVIGATION */
+
+nav{
+    background-color: #FFF0F5;
+    font-weight: bold;
+    position: fixed;
+    width: 100%;
+}
+
+nav img{
+    width: 78px;
+    float: left;
+    padding: 16px 27px;
+}
+
+nav p{
+    float: left;
+    padding-top: 8px;
+}
+
+nav ul{
+    padding: 24px;
+    float: left;
+    margin: 1px 1px 1px 32px;
+}
+
+nav li{
+    display: inline-block;
+    padding: 1px 24px;
+}
+
+li a{
+    color: 	#8B008B;
+    text-decoration: none;
+}
+
+li a:hover{
+    color:	#8B008B;
+    text-decoration: none;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #FFF0F5;
+    color: 	#8B008B;
+    padding: 32px 64px;
+}
+
+footer a{
+    color: 	#8B008B;
+}
+
+footer h3{
+    padding: 1px;
+}
