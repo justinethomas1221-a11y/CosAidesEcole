@@ -139,6 +139,7 @@ text-emphasis-position: under;
 
 .big-image{
     width: 100%;
+     padding-top: 90px;
 }
 
 input, textarea, button{
@@ -192,9 +193,7 @@ li a:hover{
     color:	#8B008B;
     text-decoration: none;
 }
-header {
-  padding-top: 90px;
-}
+
 
 
 /* FOOTER */
