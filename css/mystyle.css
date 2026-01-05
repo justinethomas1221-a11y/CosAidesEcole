@@ -139,7 +139,7 @@ text-emphasis-position: under;
 
 .big-image{
     width: 100%;
-     padding-top: 90px;
+    margin-top: 90px;
 }
 
 input, textarea, button{
@@ -211,3 +211,4 @@ footer a{
 footer h3{
     padding: 1px;
 }
+
