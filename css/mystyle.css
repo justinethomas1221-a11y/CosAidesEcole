@@ -35,8 +35,9 @@ img {
 }
 .table-GSM {
   overflow-x: auto;
+  display: block;
+  width: 100%;
 }
-
 
 
 /** tableau **/
@@ -204,6 +205,7 @@ footer a{
 footer h3{
     padding: 1px;
 }
+
 
 
 
